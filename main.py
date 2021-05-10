@@ -22,4 +22,4 @@ async def nomf(ctx):
         element = lines[randint(0, len(lines)-1)]
         await ctx.send(element)
 
-bot.run("ODMyNTY1NTYzMzM0NDU5NDIz.YHlpGg.ugMfjtvaYGQvMXZNhov2SOYM3Cw")
+bot.run("process.env.TOKEN")
